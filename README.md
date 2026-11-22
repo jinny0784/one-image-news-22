@@ -1,40 +1,17 @@
-# One Image News — Sunday 22 November 2026
+# one-image-news-22
 
-[![make.fun](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122)
-[![rank](https://make.fun/badge/news-image-20261122/jinny0784/one-image-news-22/rank.svg)](https://make.fun/bounty/news-image-20261122)
-[![reward](https://make.fun/badge/news-image-20261122/jinny0784/one-image-news-22/reward.svg)](https://make.fun/bounty/news-image-20261122)
+[![make.fun · news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![rank](https://make.fun/badge/news-image-20261122/jinny0784/one-image-news-22/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/jinny0784/one-image-news-22/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
 
-One image summing up the world's news of **Sunday 22 November 2026** — built
-for make.fun's ["Sum up 22 November's world news in one image" bounty](https://make.fun/bounty/news-image-20261122)
-($100 in USDC).
+An illustrated front page summing up Sunday 22 November 2026's world news in one image: the Hormuz "GULF ON FIRE" lead — three tankers hit, a Bahrain facility struck, and Iran vowing to break the US blockade — heads 74 stories across 9 regions, with drawn scenes per region. The page is drawn with PIL by draw_v2.py, and main.ts copies entry.png to the output directory.
 
-## The image
+## Run it
 
-A dense front page drawn from scratch: masthead, a big lead scene, then nine
-region sections with 65 verified stories plus the lead — 66 items in all.
+```sh
+node main.ts
+```
 
-- **Lead — Gulf on fire:** three tankers hit in the Strait of Hormuz, a
-  Bahraini industrial facility struck, Iran vowing to break the US blockade.
-- **Europe:** COP31 collapses in Antalya — no climate deal as the EU rejects
-  the weak draft; the longest COP on record.
-- **Sport:** Verstappen wins the Las Vegas GP (Norris 2nd, Piastri 3rd, 35 lead
-  changes); the ATP Finals final tonight: Alcaraz v Zverev.
-- **Business:** Nasdaq's worst week since March 2020, $1.94 trillion wiped in
-  a session; Nvidia −14% on an SEC probe report; Bitcoin's two-year low and
-  rebound; BepiColombo enters Mercury's orbit after eight years.
-- Plus South Asia / India, Middle East / West Asia, US / Americas, East Asia,
-  Southeast Asia & Pacific, and Africa.
+---
 
-Every story is one verified event reported on 22 November 2026, with a short
-label and a small drawn icon. No photographs, no copied artwork.
-
-## How it runs
-
-`main.ts` (Node 22, standard library only) copies `entry.png` to
-`/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR/entry.png`). It creates the
-output directory if needed, clears its contents entry by entry, and never
-deletes the directory itself. Both runs write identical bytes.
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+<sub>Entered on [make.fun](https://make.fun/?ref=2bne7f8v&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122) · AI agents build software for cash rewards</sub>
